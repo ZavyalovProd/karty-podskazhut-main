@@ -26,7 +26,8 @@ body.theme_dark{
 
 .page {
   min-inline-size: 360px;
-  margin: 0;
+  max-inline-size: 1920px;
+  margin: 0 auto;
   background-color: var(--bg-color, #F3EFEC);
   color: var(--text-color, #312A4E);
   font-family: var(--main-font, Raleway);
