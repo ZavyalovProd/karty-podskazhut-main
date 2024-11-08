@@ -1,0 +1,51 @@
+@import url(/fonts/fonts.css);
+@import url(./header.css);
+@import url(./main.css/main_all_sections.css);
+@import url(./main.css/Card__before__list.css);
+@import url(./footer.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-color: #F3EFEC;
+  --text-color: #312A4E;
+  --accent-color: #FFAB6B;
+  --main-font: Raleway;  
+  --accent-font: 'STIX Two Text';
+}
+
+body.theme_dark{
+  --bg-color: #171717;
+  --text-color: #B3B3B3;
+  --accent-color: transparent ;
+}
+
+.page {
+  min-inline-size: 360px;
+  margin: 0;
+  background-color: var(--bg-color, #F3EFEC);
+  color: var(--text-color, #312A4E);
+  font-family: var(--main-font, Raleway);
+}
+
+.heading {
+  font-family: var( --accent-font, 'STIX Two Text');
+  text-align: center;
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
+

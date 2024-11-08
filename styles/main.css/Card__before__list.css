@@ -1,0 +1,33 @@
+.content__card{
+    aspect-ratio: 4/3;
+    margin-top: 7%;
+    text-align: center;
+    border: 1px solid var(--text-color);
+    align-content: center;
+}
+
+.content__card-title{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.colored-text {
+    position: relative;              
+    display: inline-block;                                
+    color: var(--text-color #312A4E);                       
+}
+
+.colored-text::after {
+    content: '';                           
+    position: absolute;                   
+    bottom: 20px;                            
+    left: 0;                           
+    width: 100%;                          
+    height: 15px;                         
+    background-color: var(--accent-color, #FFAB6B); 
+    z-index: -1;                      
+}
+
+.content__card-description{
+    font-size: 18px;
+}
